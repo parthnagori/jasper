@@ -58,7 +58,7 @@ safe: false
 lsi: false
 username: parthnagori
 repo: https://github.com/parthnagori/parthnagori.github.io/
-branch: branch_1
+branch: iteration_1
 relative_source: ../ 
 destination: ../gh_pages 
 production_url:  https://parthnagori.github.io/
