@@ -7,3 +7,7 @@ gem "jekyll", "~> 3.0.3"
 #gem 'rouge', '~> 1.10', '>= 1.10.1'
 gem "github-pages", "~> 66"
 gem "rake", "~> 10.1.1"
+gem 'json', git: "https://github.com/flori/json.git", branch: 'v1.8'
+group :jekyll_plugins do
+  gem 'jekyll-haml'
+end

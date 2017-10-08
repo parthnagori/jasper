@@ -164,6 +164,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-menu:before {
     content: "\f609";
 }
+
+.custom-li {
+    display: inline-block !important;
+    list-style-type: none !important;
+    padding-right: 20px !important;
+    float: left !important;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+}
 /*
     IMPORTANT: When making any changes to the icon font, be sure to increment
     the version number by 1 in the @font-face rule. `?v=1` becomes `?v=2`
@@ -252,7 +260,7 @@ a:hover {
     color: #111;
 }
 
-p, ul, ol, dl {
+ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
@@ -1329,6 +1337,55 @@ body:not(.post-template) .post-title {
 .archive-template .author-profile .author-meta {
     display: none;
 }
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hover-text {
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+}
+
+.index-title-font {
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.profile-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: -60px;
+    border: 3px solid #fff;
+    vertical-align: middle;
+}
+
+.about-content {
+    margin-right: 20em !important;
+    margin-left: 20em !important;
+}
+
+.p{
+    margin: 0 !important;
+}
+
+.list-inline {
+    /*padding-left: 0;*/
+    list-style: none;
+    display: inline-block !important;
+}
+
+.icon {
+    font-size: 2em;]
+    opacity: .8;
+    color: #fff;
+}
+
 
 
 /* ==========================================================================
